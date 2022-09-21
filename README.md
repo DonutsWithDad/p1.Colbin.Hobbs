@@ -27,6 +27,7 @@ Human Computer interaction
   * Decrease the size of all buttons slightly
     * To help fit in the vertical column
 # Improved Sketch
+![image](https://user-images.githubusercontent.com/81337598/191391118-a961ea91-ae4f-43ca-ac9c-46f297863b2c.png)
 # A touch screen elevator?
   * I think that a touch screen elevator is bad for a few reasons
     * A higher level of maintenance if a problem arises
