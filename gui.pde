@@ -175,13 +175,13 @@ public void createGUI(){
   CF_5u.setTextAlign(GAlign.RIGHT, GAlign.MIDDLE);
   CF_5u.setText("Your Current Floor: ");
   CF_5u.setOpaque(false);
-  floor_btn1_5 = new GImageButton(floor_5_down, 160, 250, 50, 50, new String[] { "floor_1.jpg", "floor_1_hover.jpg", "floor_2_clicked.jpg" } );
+  floor_btn1_5 = new GImageButton(floor_5_down, 200, 230, 50, 50, new String[] { "floor_1.jpg", "floor_1_hover.jpg", "floor_2_clicked.jpg" } );
   floor_btn1_5.addEventHandler(this, "floor_btn1_5_click");
-  floor_btn2_5 = new GImageButton(floor_5_down, 160, 190, 50, 50, new String[] { "floor_2.jpg", "floor_2_hover.jpg", "floor_2_clicked.jpg" } );
+  floor_btn2_5 = new GImageButton(floor_5_down, 200, 170, 50, 50, new String[] { "floor_2.jpg", "floor_2_hover.jpg", "floor_2_clicked.jpg" } );
   floor_btn2_5.addEventHandler(this, "floor_btn2_5_click");
-  floor_btn3_5 = new GImageButton(floor_5_down, 160, 130, 50, 50, new String[] { "floor_3.jpg", "floor_3_hover.jpg", "floor_3_clicked.jpg" } );
+  floor_btn3_5 = new GImageButton(floor_5_down, 200, 110, 50, 50, new String[] { "floor_3.jpg", "floor_3_hover.jpg", "floor_3_clicked.jpg" } );
   floor_btn3_5.addEventHandler(this, "floor_btn3_5_click");
-  floor_btn4_5 = new GImageButton(floor_5_down, 160, 70, 50, 50, new String[] { "floor_4.jpg", "floor_4_hover.jpg", "floor_4_clicked.jpg" } );
+  floor_btn4_5 = new GImageButton(floor_5_down, 200, 50, 50, 50, new String[] { "floor_4.jpg", "floor_4_hover.jpg", "floor_4_clicked.jpg" } );
   floor_btn4_5.addEventHandler(this, "floor_btn4_5_click");
   floor_label_5 = new GLabel(floor_5_down, 130, 10, 80, 20);
   floor_label_5.setText("5");
@@ -199,16 +199,16 @@ public void createGUI(){
   floor_label_5_up.setOpaque(false);
   back_btn_5_up = new GImageButton(floor_5_up, 10, 260, 50, 50, new String[] { "back_arrow.jpg", "back_arrow_hover.jpg", "back_arrow_clicked.jpg" } );
   back_btn_5_up.addEventHandler(this, "back_btn_5_up_click");
-  floor_btn6_5 = new GImageButton(floor_5_up, 180, 200, 50, 50, new String[] { "floor_6.jpg", "floor_6_hover.jpg", "floor_6_clicked.jpg" } );
+  floor_btn6_5 = new GImageButton(floor_5_up, 200, 200, 50, 50, new String[] { "floor_6.jpg", "floor_6_hover.jpg", "floor_6_clicked.jpg" } );
   floor_btn6_5.addEventHandler(this, "floor_btn6_5_click");
-  floor_btn7_5 = new GImageButton(floor_5_up, 180, 140, 50, 50, new String[] { "floor_7.jpg", "floor_7_hover.jpg", "floor_7_clicked.jpg" } );
+  floor_btn7_5 = new GImageButton(floor_5_up, 200, 140, 50, 50, new String[] { "floor_7.jpg", "floor_7_hover.jpg", "floor_7_clicked.jpg" } );
   floor_btn7_5.addEventHandler(this, "floor_btn7_5_click");
-  floor_btn8_5 = new GImageButton(floor_5_up, 180, 80, 50, 50, new String[] { "floor_8.jpg", "floor_8_hover.jpg", "floor_8_clicked.jpg" } );
+  floor_btn8_5 = new GImageButton(floor_5_up, 200, 80, 50, 50, new String[] { "floor_8.jpg", "floor_8_hover.jpg", "floor_8_clicked.jpg" } );
   floor_btn8_5.addEventHandler(this, "floor_btn8_5_click");
   floor_5_down.loop();
   floor_5_up.loop();
-  floor_5_down.setVisible(false);
   floor_5_up.setVisible(false);
+  floor_5_down.setVisible(false);
 }
 
 // Variable declarations 
