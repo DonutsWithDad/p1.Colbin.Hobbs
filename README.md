@@ -44,6 +44,7 @@ Human Computer interaction
   * “If it ain’t broke, don’t fix it”
   * About the demo
      * This design assumes physical buttons for emergency services and other utilities. 
+![image](https://user-images.githubusercontent.com/81337598/192404162-1db99d93-4fb2-43c6-bc44-5c288d8b7298.png)
 # Some more creative input
   * Mirage hotel now has an identification system
     * No one can go up without a hotel card
